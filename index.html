@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    nama &nbsp;&nbsp;&nbsp;<input type="text" id="nama"><br>
+    umur &nbsp;&nbsp;&nbsp;<input type="number" id="umur"><br>
+    tanggal&nbsp;&nbsp;<input type="date" id="tanggal"><br>
+
+    <input type="hidden" id="id">
+
+    <button type="button" id="simpan">simpan</button>
+
+    <!-- tampil data -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Tanggal</th>
+            </tr>
+        </thead>
+        <tbody id="isi">
+
+        </tbody>
+    </table>
+    <!-- script -->
+    <script src="jquery.mis.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="Api.js"></script>
+</body>
+
+</html>
